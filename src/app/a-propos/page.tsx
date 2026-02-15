@@ -6,12 +6,20 @@ import styles from "./page.module.css"
 export const metadata: Metadata = {
   title: "À Propos",
   description:
-    "Découvrez Gents Coiffure, barbier à Nation Paris 11. Karim et Sofian vous accueillent au 68 Rue de Montreuil dans un cadre industriel-chic. Coupes homme, barbe, soins visage.",
+    "Découvrez Gents Coiffure, salon barbier à Paris 11 Nation. Karim et Sofian vous accueillent dans un cadre industriel-chic. Café offert.",
   openGraph: {
     title: "À Propos | Gents Coiffure — Barbier Paris 11 Nation",
     description:
-      "Découvrez Gents Coiffure, barbier à Nation Paris 11. Karim et Sofian vous accueillent dans un cadre industriel-chic.",
-    url: "https://TODO-DOMAINE.fr/a-propos",
+      "Découvrez Gents Coiffure, salon barbier à Paris 11 Nation. Karim et Sofian vous accueillent dans un cadre industriel-chic. Café offert.",
+    url: "https://gents-barber-two.vercel.app/a-propos",
+    images: [
+      {
+        url: "/images/og-image.webp",
+        width: 1200,
+        height: 630,
+        alt: "Gents Coiffure — Barbier Paris 11 Nation",
+      },
+    ],
   },
 }
 

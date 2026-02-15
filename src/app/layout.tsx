@@ -19,13 +19,13 @@ const dmSans = DM_Sans({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://TODO-DOMAINE.fr"),
+  metadataBase: new URL("https://gents-barber-two.vercel.app"),
   title: {
     default: "Gents Coiffure | Barbier Paris 11 Nation",
     template: "%s | Gents Coiffure — Barbier Paris 11 Nation",
   },
   description:
-    "Barbier à Paris 11 Nation. Coupes homme, barbe, soins visage. RDV en ligne sur Planity. 68 Rue de Montreuil, métro Rue des Boulets.",
+    "Barbier à Paris 11 près de Nation. Coupe homme 17€, barbe, soins. Noté 5/5 sur Google (237 avis). RDV en ligne Planity & Treatwell. 68 rue de Montreuil.",
   openGraph: {
     type: "website",
     locale: "fr_FR",
@@ -37,32 +37,22 @@ const barberShopSchema = {
   "@context": "https://schema.org",
   "@type": "BarberShop",
   name: "Gents Coiffure",
-  image: "https://TODO-DOMAINE.fr/images/facade.webp",
-  url: "https://TODO-DOMAINE.fr",
+  image: "https://gents-barber-two.vercel.app/images/facade.webp",
+  url: "https://gents-barber-two.vercel.app",
   telephone: "+33143738330",
   priceRange: "€",
-  sameAs: [
-    "https://www.instagram.com/gents_coiffure/",
-    "https://www.planity.com/gents-barber-75011-paris",
-    "https://www.google.com/maps/place/68+Rue+de+Montreuil+75011+Paris",
-  ],
-  areaServed: {
-    "@type": "City",
-    name: "Paris",
-    sameAs: "https://www.wikidata.org/wiki/Q90",
-  },
-  hasMap: "https://www.google.com/maps/dir/?api=1&destination=68+Rue+de+Montreuil+75011+Paris",
   address: {
     "@type": "PostalAddress",
     streetAddress: "68 Rue de Montreuil",
     addressLocality: "Paris",
     postalCode: "75011",
+    addressRegion: "Île-de-France",
     addressCountry: "FR",
   },
   geo: {
     "@type": "GeoCoordinates",
-    latitude: 48.851,
-    longitude: 2.389,
+    latitude: 48.8503,
+    longitude: 2.3925,
   },
   openingHoursSpecification: [
     {
@@ -103,6 +93,12 @@ const barberShopSchema = {
       reviewBody:
         "Les salons Barbier ça ne manque pas dans le quartier, mais chez Gent's Barber l'accueil est vraiment top. Karim est aux petits soins avec ses clients, on se sent comme à la maison. Superbe coupe.",
     },
+  ],
+  sameAs: [
+    "https://www.instagram.com/gents_coiffure/",
+    "https://www.planity.com/gents-barber-75011-paris",
+    "https://widget.treatwell.fr/salon/gents-coiffure/",
+    "https://www.google.com/maps/place/68+Rue+de+Montreuil+75011+Paris",
   ],
 }
 

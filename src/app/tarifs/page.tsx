@@ -8,25 +8,38 @@ import styles from "./page.module.css"
 export const metadata: Metadata = {
   title: "Tarifs",
   description:
-    "Tarifs Gents Coiffure, barbier Paris 11 Nation : coupe dès 17€, contour 5€, barbe 10€, forfaits dès 23€. Lissage brésilien, coloration. 68 Rue de Montreuil. RDV sur Planity.",
+    "Tarifs Gents Coiffure Paris 11. Coupe adulte 17€, coupe+barbe 23€, lissage brésilien dès 65€. Tous les prix et FAQ. Réservation Planity.",
   openGraph: {
     title: "Tarifs | Gents Coiffure — Barbier Paris 11 Nation",
     description:
-      "Tarifs Gents Coiffure : coupe dès 17€, barbe 10€, forfaits dès 23€. Lissage brésilien, coloration.",
-    url: "https://TODO-DOMAINE.fr/tarifs",
+      "Tarifs Gents Coiffure Paris 11. Coupe adulte 17€, coupe+barbe 23€, lissage brésilien dès 65€. Tous les prix et FAQ. Réservation Planity.",
+    url: "https://gents-barber-two.vercel.app/tarifs",
+    images: [
+      {
+        url: "/images/og-image.webp",
+        width: 1200,
+        height: 630,
+        alt: "Gents Coiffure — Barbier Paris 11 Nation",
+      },
+    ],
   },
 }
 
 const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
+  serviceType: "Barbier",
   provider: {
     "@type": "BarberShop",
     name: "Gents Coiffure",
   },
+  areaServed: {
+    "@type": "City",
+    name: "Paris",
+  },
   hasOfferCatalog: {
     "@type": "OfferCatalog",
-    name: "Tarifs Gents Coiffure",
+    name: "Prestations Barbier",
     itemListElement: tarifs.map((category) => ({
       "@type": "OfferCatalog",
       name: category.title,
@@ -36,9 +49,8 @@ const serviceSchema = {
           "@type": "Service",
           name: p.name,
         },
-        price: p.price,
+        price: String(p.price),
         priceCurrency: "EUR",
-        ...(p.fromPrice && { priceSpecification: { "@type": "PriceSpecification", minPrice: p.price, priceCurrency: "EUR" } }),
       })),
     })),
   },

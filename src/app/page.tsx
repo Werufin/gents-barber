@@ -10,13 +10,20 @@ import ScrollReveal from "@/components/ScrollReveal"
 export const metadata: Metadata = {
   title: "Gents Coiffure | Barbier Paris 11 Nation",
   description:
-    "Barbier à Paris 11 Nation. Coupe homme dès 17€, barbe, lissage brésilien. Noté 5.0/5 sur Google. RDV en ligne sur Planity. 68 Rue de Montreuil.",
+    "Barbier à Paris 11 près de Nation. Coupe homme 17€, barbe, soins. Noté 5/5 sur Google (237 avis). RDV en ligne Planity & Treatwell. 68 rue de Montreuil.",
   openGraph: {
     title: "Gents Coiffure | Barbier Paris 11 Nation",
     description:
-      "Barbier à Paris 11 Nation. Coupe homme dès 17€. Noté 5.0/5 sur Google. RDV en ligne sur Planity.",
-    url: "https://TODO-DOMAINE.fr",
-    images: ["/images/facade.webp"],
+      "Barbier à Paris 11 près de Nation. Coupe homme 17€, barbe, soins. Noté 5/5 sur Google (237 avis). RDV en ligne Planity & Treatwell. 68 rue de Montreuil.",
+    url: "https://gents-barber-two.vercel.app",
+    images: [
+      {
+        url: "/images/og-image.webp",
+        width: 1200,
+        height: 630,
+        alt: "Gents Coiffure — Barbier Paris 11 Nation",
+      },
+    ],
   },
 }
 

@@ -5,7 +5,7 @@ export interface FaqItem {
 
 export const faq: FaqItem[] = [
   {
-    question: "Faut-il prendre rendez-vous ?",
+    question: "Faut-il prendre rendez-vous chez Gents Coiffure ?",
     answer: "Non, vous pouvez venir avec ou sans rendez-vous. Pour éviter l'attente, vous pouvez réserver un créneau en ligne sur Planity.",
   },
   {
