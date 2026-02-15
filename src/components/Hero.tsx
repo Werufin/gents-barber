@@ -33,7 +33,7 @@ export default function Hero() {
           preload="metadata"
           className={styles.video}
           poster="/images/facade-front.webp"
-          aria-label="Vidéo d'ambiance du salon Gents Barber"
+          aria-label="Vidéo d'ambiance du salon Gents Coiffure"
         >
           <source src="/images/hero-video.mp4" type="video/mp4" />
         </video>
@@ -44,7 +44,7 @@ export default function Hero() {
         <h1 className={styles.title}>
           GENTS
           <br />
-          <span className={styles.outline}>BARBER</span>
+          <span className={styles.outline}>COIFFURE</span>
         </h1>
         <p className={styles.sub}>
           Coupes nettes. Barbes sculptées.

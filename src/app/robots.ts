@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://gents-barber.fr/sitemap.xml",
+    sitemap: "https://TODO-DOMAINE.fr/sitemap.xml",
   }
 }

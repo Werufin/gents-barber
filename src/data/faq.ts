@@ -21,8 +21,8 @@ export const faq: FaqItem[] = [
     answer: "Oui, vous pouvez annuler ou modifier votre rendez-vous directement sur Planity jusqu'à 2 heures avant l'heure prévue.",
   },
   {
-    question: "Proposez-vous la décoloration et la coloration ?",
-    answer: "Oui, nous proposons la décoloration (à partir de 60€), la coloration cheveux (à partir de 20€) et la coloration barbe (à partir de 15€). La durée et le tarif varient selon la longueur et le type de cheveux.",
+    question: "Proposez-vous la coloration ?",
+    answer: "Oui, nous proposons la coloration cheveux (à partir de 20€) et la coloration barbe (à partir de 15€). La durée et le tarif varient selon la longueur et le type de cheveux.",
   },
   {
     question: "En quoi consiste le lissage brésilien ?",

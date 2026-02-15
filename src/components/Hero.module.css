@@ -61,8 +61,7 @@
 }
 
 .outline {
-  -webkit-text-stroke: 2px var(--gold);
-  color: transparent;
+  color: var(--gold);
 }
 
 .sub {

@@ -8,14 +8,14 @@ import Cta from "@/components/Cta"
 import ScrollReveal from "@/components/ScrollReveal"
 
 export const metadata: Metadata = {
-  title: "Gents Barber | Barbier Paris 11 Nation",
+  title: "Gents Coiffure | Barbier Paris 11 Nation",
   description:
-    "Barbier à Paris 11 Nation. Coupe homme dès 17€, barbe, décoloration, lissage brésilien. Noté 5.0/5 sur Google. RDV en ligne sur Planity. 68 Rue de Montreuil.",
+    "Barbier à Paris 11 Nation. Coupe homme dès 17€, barbe, lissage brésilien. Noté 5.0/5 sur Google. RDV en ligne sur Planity. 68 Rue de Montreuil.",
   openGraph: {
-    title: "Gents Barber | Barbier Paris 11 Nation",
+    title: "Gents Coiffure | Barbier Paris 11 Nation",
     description:
       "Barbier à Paris 11 Nation. Coupe homme dès 17€. Noté 5.0/5 sur Google. RDV en ligne sur Planity.",
-    url: "https://gents-barber.fr",
+    url: "https://TODO-DOMAINE.fr",
     images: ["/images/facade.webp"],
   },
 }

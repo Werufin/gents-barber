@@ -1,4 +1,5 @@
 import Image from "next/image"
+import { Armchair, Warehouse, Coffee } from "lucide-react"
 import styles from "./Salon.module.css"
 
 export default function Salon() {
@@ -13,7 +14,7 @@ export default function Salon() {
           <div className={`${styles.imgWrap} ${styles.imgLarge}`}>
             <Image
               src="/images/interior-chairs.webp"
-              alt="Intérieur du salon Gents Barber — fauteuils barbier et mur de briques"
+              alt="Intérieur du salon Gents Coiffure — fauteuils barbier et mur de briques"
               fill
               sizes="(max-width: 768px) 100vw, 60vw"
               className={styles.img}
@@ -23,7 +24,7 @@ export default function Salon() {
           <div className={styles.imgWrap}>
             <Image
               src="/images/facade.webp"
-              alt="Façade du salon Gents Barber — 68 Rue de Montreuil, Paris 11"
+              alt="Façade du salon Gents Coiffure — 68 Rue de Montreuil, Paris 11"
               fill
               sizes="(max-width: 768px) 100vw, 40vw"
               className={styles.img}
@@ -32,7 +33,7 @@ export default function Salon() {
           <div className={styles.imgWrap}>
             <Image
               src="/images/interior-lounge.webp"
-              alt="Espace lounge Gents Barber — canapé Chesterfield et déco industrielle"
+              alt="Espace lounge Gents Coiffure — canapé Chesterfield et déco industrielle"
               fill
               sizes="(max-width: 768px) 100vw, 40vw"
               className={styles.img}
@@ -41,15 +42,15 @@ export default function Salon() {
         </div>
         <div className={styles.features}>
           <div className={styles.feature}>
-            <span>✂️</span>
+            <Armchair size={20} strokeWidth={1.5} />
             <span>Fauteuils premium</span>
           </div>
           <div className={styles.feature}>
-            <span>🧱</span>
+            <Warehouse size={20} strokeWidth={1.5} />
             <span>Déco industrielle</span>
           </div>
           <div className={styles.feature}>
-            <span>☕</span>
+            <Coffee size={20} strokeWidth={1.5} />
             <span>Ambiance lounge</span>
           </div>
         </div>

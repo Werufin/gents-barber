@@ -11,7 +11,7 @@ export default function Footer() {
       <div className={`container ${styles.inner}`}>
         <div>
           <div className={styles.logo}>
-            GENTS<span className={styles.logoAccent}>BARBER</span>
+            GENTS<span className={styles.logoAccent}>COIFFURE</span>
           </div>
           <p className={styles.brandText}>Barbier à Paris 11 — Nation</p>
           <p className={styles.brandText}>68 Rue de Montreuil, 75011 Paris</p>
@@ -71,7 +71,7 @@ export default function Footer() {
       <div className={styles.divider} />
       <div className={styles.bottom}>
         <p className={styles.copyright}>
-          © {new Date().getFullYear()} Gents Barber. Tous droits réservés.
+          © {new Date().getFullYear()} Gents Coiffure. Tous droits réservés.
         </p>
       </div>
     </footer>

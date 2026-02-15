@@ -19,26 +19,26 @@ const dmSans = DM_Sans({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://gents-barber.fr"),
+  metadataBase: new URL("https://TODO-DOMAINE.fr"),
   title: {
-    default: "Gents Barber | Barbier Paris 11 Nation",
-    template: "%s | Gents Barber — Barbier Paris 11 Nation",
+    default: "Gents Coiffure | Barbier Paris 11 Nation",
+    template: "%s | Gents Coiffure — Barbier Paris 11 Nation",
   },
   description:
     "Barbier à Paris 11 Nation. Coupes homme, barbe, soins visage. RDV en ligne sur Planity. 68 Rue de Montreuil, métro Rue des Boulets.",
   openGraph: {
     type: "website",
     locale: "fr_FR",
-    siteName: "Gents Barber",
+    siteName: "Gents Coiffure",
   },
 }
 
 const barberShopSchema = {
   "@context": "https://schema.org",
   "@type": "BarberShop",
-  name: "Gents Barber",
-  image: "https://gents-barber.fr/images/facade.webp",
-  url: "https://gents-barber.fr",
+  name: "Gents Coiffure",
+  image: "https://TODO-DOMAINE.fr/images/facade.webp",
+  url: "https://TODO-DOMAINE.fr",
   telephone: "+33143738330",
   priceRange: "€",
   sameAs: [

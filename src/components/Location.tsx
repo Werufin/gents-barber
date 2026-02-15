@@ -10,7 +10,7 @@ export default function Location() {
             <h2 className={styles.title}>68 Rue de Montreuil</h2>
             <p className={styles.district}>Paris 11ème — Nation</p>
             <p className={styles.seoText}>
-              Situé au coeur du 11ème arrondissement, Gents Barber est votre
+              Situé au coeur du 11ème arrondissement, Gents Coiffure est votre
               barbier de quartier à deux pas de la place de la Nation. Accessible
               en métro depuis Rue des Boulets (M9) et Nation (M1, M2,
               M6, M9, RER A), le salon vous accueille du mardi au dimanche.
@@ -62,7 +62,7 @@ export default function Location() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Gents Barber — 68 Rue de Montreuil, 75011 Paris"
+              title="Gents Coiffure — 68 Rue de Montreuil, 75011 Paris"
             />
           </div>
         </div>

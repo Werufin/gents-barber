@@ -6,12 +6,12 @@ import styles from "./page.module.css"
 export const metadata: Metadata = {
   title: "À Propos",
   description:
-    "Découvrez Gents Barber, barbier à Nation Paris 11. Karim et Sofian vous accueillent au 68 Rue de Montreuil dans un cadre industriel-chic. Coupes homme, barbe, soins visage.",
+    "Découvrez Gents Coiffure, barbier à Nation Paris 11. Karim et Sofian vous accueillent au 68 Rue de Montreuil dans un cadre industriel-chic. Coupes homme, barbe, soins visage.",
   openGraph: {
-    title: "À Propos | Gents Barber — Barbier Paris 11 Nation",
+    title: "À Propos | Gents Coiffure — Barbier Paris 11 Nation",
     description:
-      "Découvrez Gents Barber, barbier à Nation Paris 11. Karim et Sofian vous accueillent dans un cadre industriel-chic.",
-    url: "https://gents-barber.fr/a-propos",
+      "Découvrez Gents Coiffure, barbier à Nation Paris 11. Karim et Sofian vous accueillent dans un cadre industriel-chic.",
+    url: "https://TODO-DOMAINE.fr/a-propos",
   },
 }
 
@@ -19,7 +19,7 @@ const team = [
   {
     name: "Karim",
     role: "Fondateur & Barbier",
-    bio: "Karim a ouvert Gents Barber avec une idée simple : un salon où chaque client se sent chez lui. Ses clients le décrivent comme « aux petits soins », « très professionnel » et « bienveillant ». Le café offert à l'arrivée, c'est sa touche.",
+    bio: "Karim a ouvert Gents Coiffure avec une idée simple : un salon où chaque client se sent chez lui. Ses clients le décrivent comme « aux petits soins », « très professionnel » et « bienveillant ». Le café offert à l'arrivée, c'est sa touche.",
   },
   {
     name: "Sofian",
@@ -51,7 +51,7 @@ export default function AProposPage() {
           <span className="section-tag">NOTRE HISTOIRE</span>
           <h1 className={styles.headerTitle}>Le Salon</h1>
           <p className={styles.headerSub}>
-            Gents Barber, c&apos;est un salon de barbier ancré dans le quartier
+            Gents Coiffure, c&apos;est un salon de barbier ancré dans le quartier
             Nation, Paris 11ème. Un lieu où le savoir-faire et l&apos;accueil
             font la différence.
           </p>
@@ -62,7 +62,7 @@ export default function AProposPage() {
         <div className="container">
           <p className={styles.storyText}>
             Ouvert au 68 Rue de Montreuil, entre la place de la Nation et le
-            métro Rue des Boulets, Gents Barber est un salon de barbier ancré
+            métro Rue des Boulets, Gents Coiffure est un salon de barbier ancré
             dans le 11ème arrondissement. Un espace où chaque client se sent
             bien, avec des coupes et barbes réalisées dans les règles de
             l&apos;art.
@@ -115,7 +115,7 @@ export default function AProposPage() {
             <div className={styles.galleryImgWrap}>
               <Image
                 src="/images/facade-angle.webp"
-                alt="Façade Gents Barber vue en angle — enseigne et barber pole"
+                alt="Façade Gents Coiffure vue en angle — enseigne et barber pole"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
                 className={styles.galleryImg}

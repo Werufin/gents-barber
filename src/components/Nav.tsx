@@ -15,8 +15,8 @@ export default function Nav() {
   return (
     <nav className={styles.nav} aria-label="Navigation principale">
       <div className={styles.inner}>
-        <Link href="/" className={styles.logo} aria-label="Gents Barber — Accueil">
-          GENTS<span className={styles.logoAccent}>BARBER</span>
+        <Link href="/" className={styles.logo} aria-label="Gents Coiffure — Accueil">
+          GENTS<span className={styles.logoAccent}>COIFFURE</span>
         </Link>
 
         {/* Desktop links */}

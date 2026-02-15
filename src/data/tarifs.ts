@@ -10,8 +10,8 @@ export interface TarifCategory {
   prestations: Prestation[]
 }
 
-// NOTE: Le salon s'appelle "Gents Barber" sur Planity mais "Gents Coiffure" sur Google Business Profile et Instagram.
-// L'incohérence de nom affaiblit le SEO local (signal NAP). À harmoniser quand le client tranchera.
+// NOTE: Le salon s'appelle "Gents Barber" sur Planity mais "Gents Coiffure" partout ailleurs.
+// L'URL Planity conserve l'ancien slug.
 export const PLANITY_URL = "https://www.planity.com/gents-barber-75011-paris"
 
 export const tarifs: TarifCategory[] = [
@@ -22,7 +22,6 @@ export const tarifs: TarifCategory[] = [
       { name: "Enfant (- de 12 ans)", duration: "20min", price: 15 },
       { name: "Coupe + shampoing", duration: "30min", price: 19 },
       { name: "Contour", duration: "10min", price: 5 },
-      { name: "Décoloration", duration: "2h 10min", price: 60, fromPrice: true },
       { name: "Coloration", duration: "40min", price: 20, fromPrice: true },
       { name: "Coloration barbe", duration: "20min", price: 15, fromPrice: true },
     ],
@@ -43,7 +42,6 @@ export const tarifs: TarifCategory[] = [
       { name: "Masque noir + vapeur", duration: "20min", price: 20 },
       { name: "Épilation visage à la cire", duration: "10min", price: 8 },
       { name: "Lissage brésilien + soin à la kératine", duration: "45min", price: 65, fromPrice: true },
-      { name: "Coupe + barbe + shampoing + décoloration", duration: "2h 40min", price: 80 },
     ],
   },
 ]

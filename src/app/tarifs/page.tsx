@@ -8,12 +8,12 @@ import styles from "./page.module.css"
 export const metadata: Metadata = {
   title: "Tarifs",
   description:
-    "Tarifs Gents Barber, barbier Paris 11 Nation : coupe dès 17€, contour 5€, barbe 10€, forfaits dès 23€. Décoloration, lissage brésilien, coloration. 68 Rue de Montreuil. RDV sur Planity.",
+    "Tarifs Gents Coiffure, barbier Paris 11 Nation : coupe dès 17€, contour 5€, barbe 10€, forfaits dès 23€. Lissage brésilien, coloration. 68 Rue de Montreuil. RDV sur Planity.",
   openGraph: {
-    title: "Tarifs | Gents Barber — Barbier Paris 11 Nation",
+    title: "Tarifs | Gents Coiffure — Barbier Paris 11 Nation",
     description:
-      "Tarifs Gents Barber : coupe dès 17€, barbe 10€, forfaits dès 23€. Décoloration, lissage brésilien, coloration.",
-    url: "https://gents-barber.fr/tarifs",
+      "Tarifs Gents Coiffure : coupe dès 17€, barbe 10€, forfaits dès 23€. Lissage brésilien, coloration.",
+    url: "https://TODO-DOMAINE.fr/tarifs",
   },
 }
 
@@ -22,11 +22,11 @@ const serviceSchema = {
   "@type": "Service",
   provider: {
     "@type": "BarberShop",
-    name: "Gents Barber",
+    name: "Gents Coiffure",
   },
   hasOfferCatalog: {
     "@type": "OfferCatalog",
-    name: "Tarifs Gents Barber",
+    name: "Tarifs Gents Coiffure",
     itemListElement: tarifs.map((category) => ({
       "@type": "OfferCatalog",
       name: category.title,
