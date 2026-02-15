@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { Armchair, Warehouse, Coffee } from "lucide-react"
+import { Armchair, BrickWall, Coffee } from "lucide-react"
 import styles from "./Salon.module.css"
 
 export default function Salon() {
@@ -46,8 +46,8 @@ export default function Salon() {
             <span>Fauteuils premium</span>
           </div>
           <div className={styles.feature}>
-            <Warehouse size={20} strokeWidth={1.5} />
-            <span>Déco industrielle</span>
+            <BrickWall size={20} strokeWidth={1.5} />
+            <span>Cadre loft</span>
           </div>
           <div className={styles.feature}>
             <Coffee size={20} strokeWidth={1.5} />

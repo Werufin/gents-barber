@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { PLANITY_URL } from "@/data/tarifs"
+import { PLANITY_URL, TREATWELL_URL } from "@/data/tarifs"
 import styles from "./Footer.module.css"
 
 export default function Footer() {
@@ -44,6 +44,14 @@ export default function Footer() {
             className={styles.colLink}
           >
             Réserver sur Planity
+          </a>
+          <a
+            href={TREATWELL_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.colLink}
+          >
+            Réserver sur Treatwell
           </a>
           <a
             href="https://www.google.com/maps/place/68+Rue+de+Montreuil+75011+Paris"

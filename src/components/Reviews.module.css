@@ -89,6 +89,42 @@
   color: var(--gray);
 }
 
+.ctaCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 6px;
+  padding: 2rem;
+  background: rgba(200, 164, 94, 0.08);
+  border: 1px solid var(--gold);
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.ctaCard:hover {
+  background: rgba(200, 164, 94, 0.15);
+}
+
+.ctaStars {
+  color: var(--gold);
+  font-size: 1.3rem;
+  letter-spacing: 0.1em;
+}
+
+.ctaText {
+  color: var(--gold);
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.ctaArrow {
+  color: var(--gold);
+  font-size: 1.5rem;
+}
+
 @media (max-width: 768px) {
   .grid {
     grid-template-columns: 1fr;

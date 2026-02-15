@@ -46,21 +46,72 @@
   color: var(--white);
 }
 
+.bookWrap {
+  position: relative;
+}
+
 .cta {
   padding: 0.6rem 1.5rem;
   background: var(--gold);
   color: var(--black);
+  border: none;
   border-radius: 4px;
+  font-family: var(--font-body);
   font-size: 0.85rem;
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  cursor: pointer;
   transition: all 0.3s;
 }
 
 .cta:hover {
   background: var(--gold-light);
   transform: translateY(-1px);
+}
+
+.bookMenu {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  right: 0;
+  min-width: 200px;
+  background: var(--dark-2);
+  border: 1px solid var(--dark-3);
+  border-radius: 6px;
+  padding: 0.5rem 0;
+  animation: menuFade 0.2s var(--ease);
+}
+
+.bookLink {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.7rem 1.2rem;
+  font-size: 0.85rem;
+  color: var(--cream);
+  transition: background 0.2s, color 0.2s;
+}
+
+.bookLink:hover {
+  background: rgba(200, 164, 94, 0.1);
+  color: var(--gold);
+}
+
+.bookDivider {
+  height: 1px;
+  background: var(--dark-3);
+  margin: 0.25rem 0;
+}
+
+@keyframes menuFade {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* === Hamburger button === */
@@ -134,8 +185,17 @@
   color: var(--gold);
 }
 
+.drawerLink {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
 .drawerCta {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
   margin-top: 1.5rem;
   padding: 1rem 2rem;
   background: var(--gold);

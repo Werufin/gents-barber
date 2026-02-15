@@ -37,15 +37,17 @@ export default function Reviews() {
               </div>
             </div>
           ))}
+          <a
+            href={PLANITY_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.ctaCard}
+          >
+            <span className={styles.ctaStars} aria-hidden="true">★★★★★</span>
+            <span className={styles.ctaText}>Voir tous les avis sur Planity</span>
+            <span className={styles.ctaArrow}>→</span>
+          </a>
         </div>
-        <a
-          href={PLANITY_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn btn-outline"
-        >
-          Voir tous les avis sur Planity
-        </a>
       </div>
     </section>
   )

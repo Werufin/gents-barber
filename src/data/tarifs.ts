@@ -13,6 +13,7 @@ export interface TarifCategory {
 // NOTE: Le salon s'appelle "Gents Barber" sur Planity mais "Gents Coiffure" partout ailleurs.
 // L'URL Planity conserve l'ancien slug.
 export const PLANITY_URL = "https://www.planity.com/gents-barber-75011-paris"
+export const TREATWELL_URL = "https://widget.treatwell.fr/salon/gents-coiffure/"
 
 export const tarifs: TarifCategory[] = [
   {
