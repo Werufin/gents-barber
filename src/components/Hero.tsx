@@ -51,7 +51,7 @@ export default function Hero() {
           <br />
           L&apos;expérience barbier à Nation.
         </p>
-        <p className={styles.proof}>Noté 5.0/5 sur Google — 237 avis</p>
+        <p className={styles.proof}>Noté 5.0/5 sur Google et 4.9/5 sur Planity — 237 avis</p>
         <div className={styles.ctas}>
           <a
             href={PLANITY_URL}
