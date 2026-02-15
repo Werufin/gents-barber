@@ -1,0 +1,133 @@
+.footer {
+  position: relative;
+  background: var(--dark);
+  border-top: 1px solid var(--dark-3);
+  padding: 4rem 0 0;
+  overflow: hidden;
+}
+
+/* === Background decorative logo === */
+.bgLogo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--font-display), "Bebas Neue", sans-serif;
+  font-size: clamp(8rem, 20vw, 18rem);
+  letter-spacing: 0.1em;
+  color: var(--white);
+  opacity: 0.03;
+  white-space: nowrap;
+  pointer-events: none;
+  user-select: none;
+}
+
+.inner {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  gap: 2rem;
+  padding-bottom: 3rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  letter-spacing: 0.15em;
+  margin-bottom: 1rem;
+}
+
+.logoAccent {
+  color: var(--gold);
+}
+
+.brandText {
+  font-size: 0.85rem;
+  color: var(--gray);
+  line-height: 1.8;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.ratingStars {
+  color: var(--gold);
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+}
+
+.ratingText {
+  font-size: 0.8rem;
+  color: var(--gray-light);
+}
+
+.colTitle {
+  font-family: var(--font-display), "Bebas Neue", sans-serif;
+  font-size: 1rem;
+  font-variant: small-caps;
+  letter-spacing: 0.15em;
+  margin-bottom: 1rem;
+  color: var(--gold);
+}
+
+.colLink {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--gray);
+  line-height: 2;
+  transition: color 0.2s;
+}
+
+.colLink:hover {
+  color: var(--white);
+}
+
+.colText {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--gray);
+  line-height: 2;
+}
+
+/* === Decorative divider === */
+.divider {
+  position: relative;
+  height: 1px;
+  background: var(--dark-3);
+  margin: 0 2rem;
+}
+
+.divider::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 1px;
+  background: var(--gold-dark);
+}
+
+.bottom {
+  padding: 1.5rem 2rem;
+  text-align: center;
+}
+
+.copyright {
+  font-size: 0.8rem;
+  color: var(--gray);
+}
+
+@media (max-width: 768px) {
+  .inner {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .bgLogo {
+    font-size: 6rem;
+  }
+}
