@@ -122,7 +122,7 @@ export default function Nav() {
           href={TREATWELL_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className={styles.drawerLink}
+          className={styles.drawerCtaSecondary}
           onClick={close}
         >
           <Sparkles size={18} strokeWidth={1.5} />
@@ -130,7 +130,7 @@ export default function Nav() {
         </a>
         <a
           href="tel:+33143738330"
-          className={styles.drawerLink}
+          className={styles.drawerCtaSecondary}
           onClick={close}
         >
           <Phone size={18} strokeWidth={1.5} />

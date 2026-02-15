@@ -170,7 +170,9 @@
 }
 
 .drawerLink {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
   padding: 1rem 0;
   font-size: 1.1rem;
   font-weight: 500;
@@ -183,12 +185,6 @@
 
 .drawerLink:hover {
   color: var(--gold);
-}
-
-.drawerLink {
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
 }
 
 .drawerCta {
@@ -211,6 +207,30 @@
 
 .drawerCta:hover {
   background: var(--gold-light);
+}
+
+.drawerCtaSecondary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  margin-top: 0.5rem;
+  padding: 1rem 2rem;
+  background: transparent;
+  color: var(--gold);
+  border: 1px solid var(--gold);
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-align: center;
+  transition: background 0.3s, color 0.3s;
+}
+
+.drawerCtaSecondary:hover {
+  background: rgba(200, 164, 94, 0.1);
+  color: var(--gold-light);
 }
 
 /* === Backdrop === */
