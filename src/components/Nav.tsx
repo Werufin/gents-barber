@@ -102,6 +102,9 @@ export default function Nav() {
         className={`${styles.drawer} ${open ? styles.drawerOpen : ""}`}
         aria-hidden={!open}
       >
+        <Link href="/" className={styles.drawerLink} onClick={close}>
+          Accueil
+        </Link>
         <Link href="/tarifs" className={styles.drawerLink} onClick={close}>
           Tarifs
         </Link>

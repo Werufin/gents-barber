@@ -23,8 +23,8 @@ export default function Salon() {
           </div>
           <div className={styles.imgWrap}>
             <Image
-              src="/images/facade.webp"
-              alt="Façade du salon Gents Coiffure — 68 Rue de Montreuil, Paris 11"
+              src="/images/produits-soin.webp"
+              alt="Produits de soin Qainzo Paris — masques visage et huile d'argan chez Gents Coiffure"
               fill
               sizes="(max-width: 768px) 100vw, 40vw"
               className={styles.img}
@@ -47,11 +47,11 @@ export default function Salon() {
           </div>
           <div className={styles.feature}>
             <BrickWall size={20} strokeWidth={1.5} />
-            <span>Cadre loft</span>
+            <span>Cadre industriel</span>
           </div>
           <div className={styles.feature}>
             <Coffee size={20} strokeWidth={1.5} />
-            <span>Ambiance lounge</span>
+            <span>Café offert</span>
           </div>
         </div>
       </div>

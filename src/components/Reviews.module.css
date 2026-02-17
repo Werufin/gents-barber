@@ -126,6 +126,12 @@
 }
 
 @media (max-width: 768px) {
+  .count {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+  }
+
   .grid {
     grid-template-columns: 1fr;
   }

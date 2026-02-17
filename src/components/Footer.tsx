@@ -18,6 +18,8 @@ export default function Footer() {
           <div className={styles.rating}>
             <span className={styles.ratingStars}>★★★★★</span>
             <span className={styles.ratingText}>5.0/5 sur Google</span>
+            <span className={styles.ratingDot}>·</span>
+            <span className={styles.ratingText}>4.9/5 sur Planity</span>
           </div>
         </div>
         <div>
